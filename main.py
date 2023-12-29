@@ -1,6 +1,13 @@
 '''
 Exemplo de uso do framework SCIP para resolver um problema de 
 programação linear inteira mista.
+O problema a ser resolvido é o seguinte:
+
+maximizar x + y
+sujeito a
+  -x + 2 * y <= 7
+  2 * x + y <= 14
+  2 * x - y <= 10
 '''
 
 # pip install pyscipopt
